@@ -1,0 +1,29 @@
+# Cheating Classifier - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ─── Core Deep Learning ──────────────────────────────────────────────────────
+# fastai is a high-level library built on top of PyTorch.
+# It provides the DataBlock API, vision_learner, fine_tune(), and much more.
+fastai>=2.7.12
+
+# PyTorch is the underlying deep learning framework.
+# On Apple Silicon (M1/M2/M3), MPS acceleration is used automatically.
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ─── Data Collection ─────────────────────────────────────────────────────────
+# DuckDuckGo search - no API key needed!
+# The package was renamed from duckduckgo-search to ddgs in 2025.
+# Used to search for and collect training images from the web.
+ddgs>=9.0.0
+
+# HTTP requests for downloading images
+requests>=2.31.0
+
+# ─── Notebook & Visualization ────────────────────────────────────────────────
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+matplotlib>=3.7.0
+
+# ─── Utilities ───────────────────────────────────────────────────────────────
+Pillow>=10.0.0
