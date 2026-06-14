@@ -23,6 +23,7 @@ data/soccer/
 
 # ─── Models (large binary files, re-trainable) ───────────────────────────────
 *.pkl
+!models/sport_classifier.pkl
 models/*.png
 # Keep the models/ directory tracked
 !models/.gitkeep
